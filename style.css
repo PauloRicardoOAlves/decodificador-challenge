@@ -11,20 +11,20 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    text-decoration: none;
 }
 
 .cabecalho {
-    padding: 2.25rem
+    padding: 0.5rem 0rem 0rem 0rem;
 }
 
 .corpo {
     display: flex;
     font-family: var(--fonte-principal);
-    max-width: 1440px;
-    max-height: 1024px;
-    /* padding: 5rem 16rem; */
-    padding: 5rem 2.5rem 5rem 16rem;
+    max-width: auto;
+    max-height: auto;
+    padding: 0.5rem 2.5rem 0.5rem 16rem;
     align-items: center;
     justify-content: center;
     background-color: var(--background-color);
@@ -40,6 +40,7 @@
     font-family: var(--fonte-principal);
     font-size: 2rem;
     color: var(--cor-primaria);
+    resize: none;
 }
 
 .corpo__ladoEsquerdo__areaDeTexto__avisoLetras {
@@ -74,7 +75,7 @@
 
 .corpo__ladoDireito {
     background-color: var(--cor-secudaria);
-    height: 59rem;
+    height: 50rem;
     width: 25rem;
     border-radius: 2rem;
     padding: 0 2rem;
@@ -83,7 +84,53 @@
     margin: 0rem 2.5rem;
 }
 
-.copo__ladoDireito__imagemETexto {
+.corpo__ladoDireito__imagemETexto {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-secudaria);
+}
+
+.corpo__ladoDireito__imagemETexto__imagem {
+    background-color: var(--cor-secudaria);
+}
+
+.corpo__ladoDireito__imagemETexto__textoDestaque {
+    background-color: var(--cor-secudaria);
+    color: #343a40;
+    padding: 2rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.corpo__ladoDireito__imagemETexto__textoSecundario {
+    color: #495057;
+    background-color: var(--cor-secudaria);
+    padding: 1rem;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4.43rem;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+}
+
+.rodape__texto {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudaria);
+}
+
+.rodape__texto__paulo {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudaria);
+    font-weight: bold;
+}
+
+.rodape__texto__paulo:hover{
+    color:grey;
 }

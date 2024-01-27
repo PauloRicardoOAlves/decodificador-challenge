@@ -16,7 +16,7 @@
     <main class="corpo">
         <section class="corpo__ladoEsquerdo">
 
-            <textarea class="corpo__ladoEsquerdo__areaDeTexto" name="textoOriginal" id="textoOriginal"
+            <textarea class="corpo__ladoEsquerdo__areaDeTexto" name="textoOriginal" rows="10" id="textoOriginal"
                 placeholder="Digite seu texto"></textarea>
 
             <div class="corpo__ladoEsquerdo__areaDeTexto__avisoLetras">
@@ -33,18 +33,24 @@
         <aside class="corpo__ladoDireito">
             <!-- <textarea name="textoCriptografado" id="textoCriptografado"></textarea> -->
 
-            <div class="copo__ladoDireito__imagemETexto">
-                <img src="./assets/mulher com lupa.svg"
+            <div class="corpo__ladoDireito__imagemETexto">
+                <img class="corpo__ladoDireito__imagemETexto__imagem" src="./assets/mulher com lupa.svg"
                     alt="Mulher desenhada em azul de joelhos no chão e uma lupa analisando um diamante brilhante.">
-                <p>Nenhuma mensagem encontrada</p>
-                <p>Digite um texto que você deseja criptografar ou descriptogrofar</p>
+                <p class="corpo__ladoDireito__imagemETexto__textoDestaque">Nenhuma mensagem encontrada</p>
+
+                <p class="corpo__ladoDireito__imagemETexto__textoSecundario">Digite um texto que você deseja
+                    criptografar ou descriptogrofar</p>
             </div>
 
         </aside>
     </main>
-    <footer>
 
+    <footer class="rodape">
+        <p class="rodape__texto"> Desenvolvido por
+            <a href="https://github.com/PauloRicardoOAlves" target="_blank" class="rodape__texto__paulo">Paulo Ricardo Alves</a>
+        </p>
     </footer>
+
     <script src="app.js"></script>
 </body>
 
