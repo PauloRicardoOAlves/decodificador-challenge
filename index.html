@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,43 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="cabecalho">
+        <img src="./assets/Logo A.svg" alt="letra A azul, a mesma do logotipo da Alura">
+    </header>
+    <main class="corpo">
+        <section class="ladoDireito">
+
+            <textarea name="textoOriginal" id="textoOriginal" placeholder="Digite seu texto"></textarea>
+
+            <div class="avisoLetras">
+                <img src="assets/exclamacao.png" alt="círculo com um ponto de exclamação dentro.">
+                <p>Apenas letras minúsculas e sem acento</p>
+            </div>
+
+            <div class="botoes">
+                <button class="botaoCripografar">Criptografar</button>
+                <button class="botaoDesciptografar">Descriptogrofar</button>
+            </div>
+
+        </section>
+        <section>
+            <textarea name="textoCriptografado" id="textoCriptografado"></textarea>
+
+            <div>
+                <img src="./assets/mulher com lupa.svg"
+                    alt="Mulher desenhada em azul de joelhos no chão e uma lupa analisando um diamante brilhante.">
+                <p>Nenhuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptogrofar</p>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
 </body>
+
 </html>
