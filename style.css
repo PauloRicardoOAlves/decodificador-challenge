@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
-    --fonte-principal: 'inter';
+    --fonte-principal: 'inter', 'sans-serif';
+
+    --background-color: #f3f5fc;
+    --cor-primaria: #0A3871;
+    --cor-secudaria: white;
 }
 
 * {
     padding: 0;
     margin: 0;
+    background-color: var(--background-color)
 }
 
 .cabecalho {
@@ -16,23 +21,69 @@
 .corpo {
     display: flex;
     font-family: var(--fonte-principal);
-    padding: 5rem 16rem;
+    max-width: 1440px;
+    max-height: 1024px;
+    /* padding: 5rem 16rem; */
+    padding: 5rem 2.5rem 5rem 16rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
 }
 
-.ladoDireito {
+.corpo__ladoEsquerdo {
     display: flex;
     flex-direction: column;
 }
 
-.avisoLetras{
+.corpo__ladoEsquerdo__areaDeTexto {
+    border: none;
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    color: var(--cor-primaria);
+}
+
+.corpo__ladoEsquerdo__areaDeTexto__avisoLetras {
     display: flex;
     font-size: 0.75rem;
     gap: 0.5rem;
 }
 
-.botoes{
+.corpo__ladoEsquerdo__areaDeTexto__botoes {
     display: flex;
     gap: 1.5rem;
-    color: white;
-    width: 20.25;
+    color: var(--cor-secudaria);
+
+}
+
+.corpo__ladoEsquerdo__areaDeTexto__botoes__botaoCriptografar {
+    color: var(--cor-secudaria);
+    background-color: var(--cor-primaria);
+    border-radius: 1.5rem;
+    width: 20.5rem;
+    height: 4.19rem;
+}
+
+.corpo__ladoEsquerdo__areaDeTexto__botoes__botaoDesciptografar {
+    color: var(--cor-primaria);
+    background-color: #d8dfe8;
+    border-color: var(--cor-primaria);
+    border-radius: 1.5rem;
+    width: 20.5rem;
+    height: 4.19rem;
+}
+
+.corpo__ladoDireito {
+    background-color: var(--cor-secudaria);
+    height: 59rem;
+    width: 25rem;
+    border-radius: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    margin: 0rem 2.5rem;
+}
+
+.copo__ladoDireito__imagemETexto {
+    display: flex;
+    flex-direction: column;
 }

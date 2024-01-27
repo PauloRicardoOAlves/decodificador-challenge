@@ -14,32 +14,33 @@
         <img src="./assets/Logo A.svg" alt="letra A azul, a mesma do logotipo da Alura">
     </header>
     <main class="corpo">
-        <section class="ladoDireito">
+        <section class="corpo__ladoEsquerdo">
 
-            <textarea name="textoOriginal" id="textoOriginal" placeholder="Digite seu texto"></textarea>
+            <textarea class="corpo__ladoEsquerdo__areaDeTexto" name="textoOriginal" id="textoOriginal"
+                placeholder="Digite seu texto"></textarea>
 
-            <div class="avisoLetras">
+            <div class="corpo__ladoEsquerdo__areaDeTexto__avisoLetras">
                 <img src="assets/exclamacao.png" alt="círculo com um ponto de exclamação dentro.">
                 <p>Apenas letras minúsculas e sem acento</p>
             </div>
 
-            <div class="botoes">
-                <button class="botaoCripografar">Criptografar</button>
-                <button class="botaoDesciptografar">Descriptogrofar</button>
+            <div class="corpo__ladoEsquerdo__areaDeTexto__botoes">
+                <button class="corpo__ladoEsquerdo__areaDeTexto__botoes__botaoCriptografar">Criptografar</button>
+                <button class="corpo__ladoEsquerdo__areaDeTexto__botoes__botaoDesciptografar">Descriptogrofar</button>
             </div>
 
         </section>
-        <section>
-            <textarea name="textoCriptografado" id="textoCriptografado"></textarea>
+        <aside class="corpo__ladoDireito">
+            <!-- <textarea name="textoCriptografado" id="textoCriptografado"></textarea> -->
 
-            <div>
+            <div class="copo__ladoDireito__imagemETexto">
                 <img src="./assets/mulher com lupa.svg"
                     alt="Mulher desenhada em azul de joelhos no chão e uma lupa analisando um diamante brilhante.">
                 <p>Nenhuma mensagem encontrada</p>
                 <p>Digite um texto que você deseja criptografar ou descriptogrofar</p>
             </div>
 
-        </section>
+        </aside>
     </main>
     <footer>
 
