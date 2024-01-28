@@ -134,3 +134,13 @@
 .rodape__texto__paulo:hover{
     color:grey;
 }
+
+.corpo__ladoDireito__resposta{
+    max-width: 100%;
+    border: none;
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    color: var(--cor-primaria);
+    resize: none;
+    background-color: var(--cor-secudaria);
+}
