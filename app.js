@@ -38,7 +38,7 @@ function mostrarResposta(resposta) {
 
 }
 
-function descriptogrofar() {
+function descriptografar() {
     let textArea = document.getElementById('textoOriginal');
     let texto = textArea.value
 

@@ -144,3 +144,48 @@
     resize: none;
     background-color: var(--cor-secudaria);
 }
+
+@media (max-width: 768px) {
+.cabecalho{
+    padding: 2.25rem;
+
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+}
+
+.corpo__ladoEsquerdo__areaDeTexto{
+    height: 31rem;
+}
+
+.corpo__ladoDireito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin: 1.5rem;
+    box-shadow: 4px 4px 8px 1px #dfdfdf ;
+}
+
+.corpo__ladoDireito__resposta{
+    height: 20rem;
+    padding: 1rem;
+}
+
+.corpo__ladoDireito__imagemETexto{
+    padding: 1.45rem 0rem;
+}
+
+.corpo__ladoDireito__imagemETexto__imagem{
+    display: none;
+}
+
+.corpo__ladoDireito__imagemETexto__textoDestaque{
+    padding: 1rem 0rem 0rem 0rem;
+}
+}
